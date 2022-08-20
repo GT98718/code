@@ -1,1 +1,69 @@
-# code
+<script>
+    let raceNumber = Math.floor(Math.random() * 1000);
+let registeredEarly = true;
+let age = 19;
+if(registeredEarly && age > 18){
+  raceNumber += 1000;
+}
+
+if(registeredEarly && age > 18){
+  console.log('Race will begin at 9:30, your race number is: ${raceNumber}.');
+}
+</script>
+
+<script>
+    switch(athleteFinalPosition = 'first place')
+{
+        case "first place":
+            console.log('You get the gold medal');
+            break;
+            case "second place":
+                console.log('You get the silver medal');
+                break;
+                case "third place":
+                    console.log('You get the bronze medal');
+                    break;
+
+
+
+                    default:
+                        console.log('No medal is awarded');
+}
+</script>
+
+<script>
+    let userName = '';
+userName ? console.log(`Hello, ${userName}`) : console.log('Hello!');
+let userQuestion = 'will I quit?';
+
+userName ? console.log(`Hello, ${userQuestion}`) : console.log('Yes!');
+let randomNumber = Math.floor(Math.random() * 8);
+
+let eightBall = '';
+switch(randomNumber) {
+  case 0:
+  eightBall = 'It is certain.';
+  break;
+  case 1:
+  eightBall = 'It is decidely so.';
+  break;
+  case 2:
+  eightBall = 'Reply hazy try again.';
+  break;
+  case 3:
+  eightBall = 'Cannot predict now.';
+  break;
+  case 4:
+  eightBall = 'Do not count on it.';
+  break;
+  case 5:
+  eightBall = 'My sources say no.';
+  break;
+  case 6:
+  eightBall = 'Outlook not so good.';
+  case 7:
+  eightBall = 'Signs point to yes.';
+  break;
+}
+console.log(eightBall);
+</script>
